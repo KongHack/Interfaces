@@ -9,6 +9,11 @@ Interface CommonConfig
 	public function configDB();
 
 	/**
+	 * @return array
+	 */
+	public function configCache();
+
+	/**
 	 * @return string
 	 */
 	public function configRoot();
@@ -22,4 +27,5 @@ Interface CommonConfig
 	 * @return string
 	 */
 	public function configWebRoot();
+
 }
