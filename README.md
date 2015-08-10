@@ -13,7 +13,7 @@ An interfaces pack used to maintain library cohesion across projects and package
   - User
 
 ### Version
-2.0.5
+2.0.6
 
 ### Todo
 
