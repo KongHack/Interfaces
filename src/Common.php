@@ -6,12 +6,12 @@ Interface Common
     /**
      * @return \GCWorld\Interfaces\Database
      */
-    public function getDatabase();
+    public function getDatabase($instance = 'default');
 
     /**
      * @return \Redis
      */
-    public function getCache();
+    public function getCache($instance = 'default');
 
     /**
      * @param $heading
