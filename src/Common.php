@@ -18,4 +18,17 @@ Interface Common
      * @return array
      */
     public function getConfig($heading);
+
+    /**
+     * @param $key
+     * @return string
+     */
+    public function getDirectory($key);
+
+    /**
+     * @param $key
+     * @return string
+     */
+    public function getPath($key);
+
 }
