@@ -7,7 +7,8 @@ An interfaces pack used to maintain library cohesion across projects and package
   - Common
   - Cron
   - Database
-  - Handler Interface
+  - HandlerInterface
+  - PageWrapper
   - PEX
   - User
 
