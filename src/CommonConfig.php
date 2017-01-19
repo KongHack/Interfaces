@@ -1,6 +1,12 @@
 <?php
 namespace GCWorld\Interfaces;
 
+/**
+ * Interface CommonConfig
+ * DEPRECATED
+ * 
+ * @package GCWorld\Interfaces
+ */
 Interface CommonConfig
 {
 	/**

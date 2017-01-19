@@ -5,15 +5,21 @@ An interfaces pack used to maintain library cohesion across projects and package
 ## Interfaces Available 
 
   - Common
-  - Common Config (Deprecated) 
   - Cron
   - Database
-  - Form (Deprecated)
+  - Handler Interface
   - PEX
   - User
 
+## Deprecated Interfaces
+
+  - Common Config (Deprecated)
+  - Form (Deprecated)
+
+
 ### Version
-2.0.6
+2.1.0
+
 
 ### Todo
 
