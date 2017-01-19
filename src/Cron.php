@@ -3,5 +3,5 @@ namespace GCWorld\Interfaces;
 
 Interface Cron
 {
-	public function run();
+    public function run();
 }
