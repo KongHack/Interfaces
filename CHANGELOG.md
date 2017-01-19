@@ -6,6 +6,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [2.1.1](https://gitlab.konghack.com/GCWorld/Interfaces/compare/2.1.0...2.1.1)
+ - @GameCharmer bumped the min PHP version from 5.4 to 5.6
+
+
 ## [2.1.0](https://gitlab.konghack.com/GCWorld/Interfaces/compare/2.0.6...2.1.0)
  - @GameCharmer start of changelog, updated readme
  - Added @GameCharmer Added Handler Interface
