@@ -4,6 +4,11 @@ namespace GCWorld\Interfaces;
 Interface PageWrapper
 {
     /**
+     * @return self
+     */
+    public static function getInstance();
+
+    /**
      * @param $title
      * @return $this
      */
