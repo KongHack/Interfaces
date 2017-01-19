@@ -6,6 +6,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [2.1.2.1](https://gitlab.konghack.com/GCWorld/Interfaces/compare/2.1.2...2.1.2.1)
+ - Added @GameCharmer Added the getInstance static.
+
+
 ## [2.1.2](https://gitlab.konghack.com/GCWorld/Interfaces/compare/2.1.1...2.1.2)
  - Added @GameCharmer PageWrapper Interface
 
