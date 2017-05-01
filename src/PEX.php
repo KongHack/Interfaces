@@ -4,20 +4,20 @@ namespace GCWorld\Interfaces;
 interface PEX
 {
     /**
-     * @param $node
+     * @param string $node
      * @return integer|boolean
      */
-    public function pexCheck($node);
+    public function pexCheck(string $node);
 
     /**
-     * @param $node
+     * @param string $node
      * @return integer|boolean
      */
-    public function pexCheckAny($node);
+    public function pexCheckAny(string $node);
 
     /**
-     * @param $node
+     * @param string $node
      * @return integer|boolean
      */
-    public function pexCheckExact($node);
+    public function pexCheckExact(string $node);
 }
