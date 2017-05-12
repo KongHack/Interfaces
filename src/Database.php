@@ -1,15 +1,38 @@
 <?php
 namespace GCWorld\Interfaces;
 
-Interface Database
+/**
+ * Interface Database
+ * @package GCWorld\Interfaces
+ */
+interface Database
 {
+    /**
+     * @return mixed
+     */
     public function ping();
 
-    public function tableExists($table);
+    /**
+     * @param string $table
+     * @return mixed
+     */
+    public function tableExists(string $table);
 
+    /**
+     * @return mixed
+     */
     public function getWorkingDatabaseName();
 
-    public function getTableComment($table);
+    /**
+     * @param string $table
+     * @return mixed
+     */
+    public function getTableComment(string $table);
 
-    public function setTableComment($table, $comment);
+    /**
+     * @param string $table
+     * @param string $comment
+     * @return mixed
+     */
+    public function setTableComment(string $table, string $comment);
 }

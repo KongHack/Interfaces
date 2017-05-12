@@ -1,34 +1,35 @@
 <?php
 namespace GCWorld\Interfaces;
 
-Interface Common
+interface Common
 {
     /**
+     * @param string $instance
      * @return \GCWorld\Interfaces\Database
      */
-    public function getDatabase($instance = 'default');
+    public function getDatabase(string $instance = 'default');
 
     /**
+     * @param string $instance
      * @return \Redis
      */
-    public function getCache($instance = 'default');
+    public function getCache(string $instance = 'default');
 
     /**
-     * @param $heading
+     * @param string $heading
      * @return array
      */
-    public function getConfig($heading);
+    public function getConfig(string $heading);
 
     /**
-     * @param $key
+     * @param string $key
      * @return string
      */
-    public function getDirectory($key);
+    public function getDirectory(string $key);
 
     /**
-     * @param $key
+     * @param string $key
      * @return string
      */
-    public function getPath($key);
-
+    public function getPath(string $key);
 }

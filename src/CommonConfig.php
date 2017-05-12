@@ -4,34 +4,33 @@ namespace GCWorld\Interfaces;
 /**
  * Interface CommonConfig
  * DEPRECATED
- * 
+ *
  * @package GCWorld\Interfaces
  */
-Interface CommonConfig
+interface CommonConfig
 {
-	/**
-	 * @return array
-	 */
-	public function configDB();
+    /**
+     * @return array
+     */
+    public function configDB();
 
-	/**
-	 * @return array
-	 */
-	public function configCache();
+    /**
+     * @return array
+     */
+    public function configCache();
 
-	/**
-	 * @return string
-	 */
-	public function configRoot();
+    /**
+     * @return string
+     */
+    public function configRoot();
 
-	/**
-	 * @return string
-	 */
-	public function configDomain();
+    /**
+     * @return string
+     */
+    public function configDomain();
 
-	/**
-	 * @return string
-	 */
-	public function configWebRoot();
-
+    /**
+     * @return string
+     */
+    public function configWebRoot();
 }

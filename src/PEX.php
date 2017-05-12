@@ -5,19 +5,19 @@ interface PEX
 {
     /**
      * @param string $node
-     * @return integer|boolean
+     * @return int|bool
      */
     public function pexCheck(string $node);
 
     /**
      * @param string $node
-     * @return integer|boolean
+     * @return int|bool
      */
     public function pexCheckAny(string $node);
 
     /**
      * @param string $node
-     * @return integer|boolean
+     * @return int|bool
      */
     public function pexCheckExact(string $node);
 }

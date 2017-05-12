@@ -15,5 +15,10 @@
       "GCWorld\\Interfaces\\": "src/"
     }
   },
-  "license":"proprietary"
+  "license":"proprietary",
+  "require-dev": {
+    "gcworld/code_sniffer_contrib": "^1.0",
+    "phpstan/phpstan": "^0.6.4",
+    "phpmd/phpmd": "^2.6"
+  }
 }

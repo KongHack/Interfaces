@@ -1,7 +1,7 @@
 <?php
 namespace GCWorld\Interfaces;
 
-Interface PageWrapper
+interface PageWrapper
 {
     /**
      * @return self
@@ -9,10 +9,10 @@ Interface PageWrapper
     public static function getInstance();
 
     /**
-     * @param $title
+     * @param string $title
      * @return $this
      */
-    public function setTitle($title);
+    public function setTitle(string $title);
 
     /**
      * @return string
@@ -20,10 +20,10 @@ Interface PageWrapper
     public function getTitle();
 
     /**
-     * @param $desc
+     * @param string $desc
      * @return $this
      */
-    public function setDesc($desc);
+    public function setDesc(string $desc);
 
     /**
      * @return string
@@ -31,14 +31,13 @@ Interface PageWrapper
     public function getDesc();
 
     /**
-     * @param $desc
+     * @param string $desc
      * @return $this
      */
-    public function setKeywords($desc);
+    public function setKeywords(string $desc);
 
     /**
      * @return string
      */
     public function getKeywords();
-
 }
