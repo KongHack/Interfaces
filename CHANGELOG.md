@@ -6,6 +6,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [3.1.0](https://gitlab.konghack.com/GCWorld/Interfaces/compare/3.0.0...3.1.0)
+ - @GameCharmer implemented scalar type checking and code validation
+
+
 ## [3.0.0](https://gitlab.konghack.com/GCWorld/Interfaces/compare/2.1.2.1...3.0.0)
  - @GameCharmer migrated PEX to 7.1
  - @GameCharmer updated composer.json to reflect 7.1 dependency
