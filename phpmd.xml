@@ -5,5 +5,7 @@
     </description>
 
     <rule ref="rulesets/unusedcode.xml" />
-    <rule ref="rulesets/naming.xml"/>
+    <rule ref="rulesets/naming.xml">
+        <exclude name="LongVariable" />
+    </rule>
 </ruleset>
