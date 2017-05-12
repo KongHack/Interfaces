@@ -6,6 +6,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [3.1.1](https://gitlab.konghack.com/GCWorld/Interfaces/compare/3.1.0...3.1.1)
+ - @GameCharmer roll back a couple of cases where we need to accept null as well
+
+
 ## [3.1.0](https://gitlab.konghack.com/GCWorld/Interfaces/compare/3.0.0...3.1.0)
  - @GameCharmer implemented scalar type checking and code validation
 

@@ -4,16 +4,16 @@ namespace GCWorld\Interfaces;
 interface Common
 {
     /**
-     * @param string $instance
+     * @param mixed $instance
      * @return \GCWorld\Interfaces\Database
      */
-    public function getDatabase(string $instance = 'default');
+    public function getDatabase($instance = 'default');
 
     /**
-     * @param string $instance
+     * @param mixed $instance
      * @return \Redis
      */
-    public function getCache(string $instance = 'default');
+    public function getCache($instance = 'default');
 
     /**
      * @param string $heading
