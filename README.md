@@ -4,6 +4,7 @@ An interfaces pack used to maintain library cohesion across projects and package
 
 ## Interfaces Available 
 
+  - AdvancedHandlerInterface
   - Common
   - Cron
   - Database
