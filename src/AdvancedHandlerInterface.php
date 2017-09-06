@@ -12,7 +12,7 @@ interface AdvancedHandlerInterface
     public function getTitle(): string;
 
     /**
-     * @param array $args
+     * @return void
      */
-    public function setBreadcrumbs(array $args): void;
+    public function setBreadcrumbs(): void;
 }
