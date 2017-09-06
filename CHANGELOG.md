@@ -6,31 +6,35 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
-## [3.1.1](https://gitlab.konghack.com/GCWorld/Interfaces/compare/3.1.0...3.1.1)
+## [3.1.2](https://github.com/KongHack/Interfaces/releases/tag/3.1.2)
+ - @GameCharmer Advanced Handler Interface
+
+
+## [3.1.1](https://github.com/KongHack/Interfaces/releases/tag/3.1.1)
  - @GameCharmer roll back a couple of cases where we need to accept null as well
 
 
-## [3.1.0](https://gitlab.konghack.com/GCWorld/Interfaces/compare/3.0.0...3.1.0)
+## [3.1.0](https://github.com/KongHack/Interfaces/releases/tag/3.1.0)
  - @GameCharmer implemented scalar type checking and code validation
 
 
-## [3.0.0](https://gitlab.konghack.com/GCWorld/Interfaces/compare/2.1.2.1...3.0.0)
+## [3.0.0](https://github.com/KongHack/Interfaces/releases/tag/3.0.0)
  - @GameCharmer migrated PEX to 7.1
  - @GameCharmer updated composer.json to reflect 7.1 dependency
 
 
-## [2.1.2.1](https://gitlab.konghack.com/GCWorld/Interfaces/compare/2.1.2...2.1.2.1)
+## [2.1.2.1](https://github.com/KongHack/Interfaces/releases/tag/2.1.2.1)
  - Added @GameCharmer Added the getInstance static.
 
 
-## [2.1.2](https://gitlab.konghack.com/GCWorld/Interfaces/compare/2.1.1...2.1.2)
+## [2.1.2](https://github.com/KongHack/Interfaces/releases/tag/2.1.2)
  - Added @GameCharmer PageWrapper Interface
 
 
-## [2.1.1](https://gitlab.konghack.com/GCWorld/Interfaces/compare/2.1.0...2.1.1)
+## [2.1.1](https://github.com/KongHack/Interfaces/releases/tag/2.1.1)
  - @GameCharmer bumped the min PHP version from 5.4 to 5.6
 
 
-## [2.1.0](https://gitlab.konghack.com/GCWorld/Interfaces/compare/2.0.6...2.1.0)
+## [2.1.0](https://github.com/KongHack/Interfaces/releases/tag/2.1.0)
  - @GameCharmer start of changelog, updated readme
  - Added @GameCharmer Added Handler Interface
