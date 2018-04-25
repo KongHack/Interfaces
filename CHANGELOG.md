@@ -6,6 +6,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [3.1.4](https://github.com/KongHack/Interfaces/releases/tag/3.1.4)
+ - @GameCharmer Add the UIButton interface.
+
+
 ## [3.1.3](https://github.com/KongHack/Interfaces/releases/tag/3.1.3)
  - @GameCharmer Advanced Handler Interface - Removed the array, because screw it
  
