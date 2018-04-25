@@ -40,10 +40,4 @@ interface PageWrapper
      * @return string
      */
     public function getKeywords();
-
-    /**
-     * @param UIButton $button
-     * @return $this
-     */
-    public function addButton(UIButton $button);
 }
