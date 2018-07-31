@@ -6,6 +6,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [3.2.0](https://github.com/KongHack/Interfaces/releases/tag/3.2.0)
+ - @GameCharmer Add remaining function calls to advanced handler interface
+ 
+
 ## [3.1.4](https://github.com/KongHack/Interfaces/releases/tag/3.1.4)
  - @GameCharmer Add the UIButton interface.
 
