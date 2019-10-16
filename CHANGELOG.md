@@ -6,6 +6,10 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [3.2.1](https://github.com/KongHack/Interfaces/releases/tag/3.2.1)
+ - @GameCharmer Add pexCheckMax function to PEX
+
+
 ## [3.2.0](https://github.com/KongHack/Interfaces/releases/tag/3.2.0)
  - @GameCharmer Add remaining function calls to advanced handler interface
  

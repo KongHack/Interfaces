@@ -20,7 +20,7 @@ An interfaces pack used to maintain library cohesion across projects and package
 
 
 ### Version
-3.2.0
+3.2.1
 
 
 ### Todo
