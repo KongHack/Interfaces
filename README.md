@@ -25,9 +25,5 @@ An interfaces pack used to maintain library cohesion across projects and package
 
 ### Todo
 
-  - Remove Common Config from library (Replaced with .ini system)
+  - Remove Common Config from library (Replaced with .yml system)
   - Remove Form from library (Replaced with new twig loader system)
-
-### Additional Information
-
-* [GCWorld Public Gitlab](https://gitlab.konghack.com/groups/GCWorld)
