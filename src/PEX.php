@@ -20,4 +20,10 @@ interface PEX
      * @return int|bool
      */
     public function pexCheckExact(string $node);
+
+    /**
+     * @param string $node
+     * @return int|bool
+     */
+    public function pexCheckMax(string $node);
 }
