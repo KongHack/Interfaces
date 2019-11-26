@@ -6,6 +6,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [3.3.2](https://github.com/KongHack/Interfaces/releases/tag/3.3.2)
+ - @GameCharmer Composer Update
+
+
+
 ## [3.3.1](https://github.com/KongHack/Interfaces/releases/tag/3.3.1)
  - @GameCharmer Cleanup and removal of deprecated interfaces
 
