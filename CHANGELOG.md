@@ -6,6 +6,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [4.0.0](https://github.com/KongHack/Interfaces/releases/tag/4.0.0)
+ - @GameCharmer Updated Required PHP Version to 8.0
+ - @GameCharmer New CommonMongo Interface
+ - @GameCharmer Updated Composer Dependencies
+
+
+
 ## [3.3.2](https://github.com/KongHack/Interfaces/releases/tag/3.3.2)
  - @GameCharmer Composer Update
 
