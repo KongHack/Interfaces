@@ -9,6 +9,11 @@ use GCWorld\Interfaces\Database\DatabaseInterface;
 interface CommonInterface
 {
     /**
+     * @return static
+     */
+    public static function getInstance(): static;
+
+    /**
      * @param mixed $instance
      * @return DatabaseInterface
      */
