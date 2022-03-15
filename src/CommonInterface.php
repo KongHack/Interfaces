@@ -1,11 +1,16 @@
 <?php
 namespace GCWorld\Interfaces;
 
-interface Common
+use GCWorld\Interfaces\Database\DatabaseInterface;
+
+/**
+ * CommonInterface Interface.
+ */
+interface CommonInterface
 {
     /**
      * @param mixed $instance
-     * @return \GCWorld\Interfaces\Database
+     * @return DatabaseInterface
      */
     public function getDatabase($instance = 'default');
 
