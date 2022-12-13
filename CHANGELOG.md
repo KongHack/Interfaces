@@ -6,6 +6,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [4.1.2](https://github.com/KongHack/Interfaces/releases/tag/4.1.2)
+- @GameCharmer `BackedEnumWithTextInterface` interface
+
+
+
 ## [4.1.1](https://github.com/KongHack/Interfaces/releases/tag/4.1.1)
  - @GameCharmer Add getInstance static definition
 
