@@ -6,6 +6,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [4.1.3](https://github.com/KongHack/Interfaces/releases/tag/4.1.3)
+- @GameCharmer `ORMDescriptionInterface` for the ORM Description system
+
+
+
 ## [4.1.2](https://github.com/KongHack/Interfaces/releases/tag/4.1.2)
 - @GameCharmer `BackedEnumWithTextInterface` interface
 
