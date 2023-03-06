@@ -23,4 +23,10 @@ interface ORMDescriptionInterface
      * @return string|null
      */
     public static function getFieldHelp(string $fieldName): ?string;
+
+    /**
+     * @param string $fieldName
+     * @return int
+     */
+    public static function getFieldMaxLength(string $fieldName): int;
 }
