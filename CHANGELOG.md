@@ -6,6 +6,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [4.1.5](https://github.com/KongHack/Interfaces/releases/tag/4.1.5)
+- @GameCharmer Update methods in `ORMDescriptionInterface` to prevent conflicts
+
+
+
 ## [4.1.4](https://github.com/KongHack/Interfaces/releases/tag/4.1.4)
 - @GameCharmer add max length to `ORMDescriptionInterface`
 
