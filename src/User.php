@@ -4,6 +4,7 @@ namespace GCWorld\Interfaces;
 /**
  * Interface User
  * @package GCWorld\Interfaces
+ * @deprecated  Use UserInterface Instead
  */
 interface User
 {
