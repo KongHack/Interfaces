@@ -6,6 +6,12 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [4.2.0](https://github.com/KongHack/Interfaces/releases/tag/4.2.0)
+- @GameCharmer Deprecate old User Interface
+- @GameCharmer Institute new User Interface that relies on Member UUID
+
+
+
 ## [4.1.5](https://github.com/KongHack/Interfaces/releases/tag/4.1.5)
 - @GameCharmer Update methods in `ORMDescriptionInterface` to prevent conflicts
 
