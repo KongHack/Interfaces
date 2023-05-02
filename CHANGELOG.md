@@ -6,6 +6,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [4.2.2](https://github.com/KongHack/Interfaces/releases/tag/4.2.2)
+- @GameCharmer Twig Interface
+
+
+
 ## [4.2.1](https://github.com/KongHack/Interfaces/releases/tag/4.2.1)
 - @GameCharmer Session Interface
 
