@@ -1,43 +1,46 @@
 <?php
 namespace GCWorld\Interfaces;
 
+/**
+ * PageWrapper Interface.
+ */
 interface PageWrapper
 {
     /**
-     * @return self
+     * @return static
      */
-    public static function getInstance();
+    public static function getInstance(): static;
 
     /**
      * @param string $title
      * @return $this
      */
-    public function setTitle(string $title);
+    public function setTitle(string $title): static;
 
     /**
      * @return string
      */
-    public function getTitle();
+    public function getTitle(): string;
 
     /**
      * @param string $desc
      * @return $this
      */
-    public function setDesc(string $desc);
+    public function setDesc(string $desc): static;
 
     /**
      * @return string
      */
-    public function getDesc();
+    public function getDesc(): string;
 
     /**
      * @param string $desc
      * @return $this
      */
-    public function setKeywords(string $desc);
+    public function setKeywords(string $desc): static;
 
     /**
      * @return string
      */
-    public function getKeywords();
+    public function getKeywords(): string;
 }
