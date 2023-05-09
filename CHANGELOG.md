@@ -8,7 +8,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [4.2.4](https://github.com/KongHack/Interfaces/releases/tag/4.2.4)
 - @GameCharmer Update PageWrapper Interface returns
-- @Gamecharmer New Router Interface
+- @GameCharmer New Router Interface
 
 
 
