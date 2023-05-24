@@ -69,4 +69,9 @@ interface UserInterface
      * @return array
      */
     public function getMessages(): array;
+
+    /**
+     * @return void
+     */
+    public function clearMessages(): void;
 }
