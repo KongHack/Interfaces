@@ -9,11 +9,13 @@ interface UserInterface
     /**
      * @param string $key
      * @param mixed  $value
+     * @return void
      */
     public function setSetting(string $key, mixed $value): void;
 
     /**
      * @param string $key
+     * @return void
      */
     public function removeSetting(string $key): void;
 
@@ -55,4 +57,16 @@ interface UserInterface
      * @return bool
      */
     public function isLoggedIn(): bool;
+
+    /**
+     * @param string $message
+     * @param string $class
+     * @return void
+     */
+    public function addMessage(string $message, string $class = 'sitespecific'): void;
+
+    /**
+     * @return array
+     */
+    public function getMessages(): array;
 }

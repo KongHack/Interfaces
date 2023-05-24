@@ -6,6 +6,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [4.3.0](https://github.com/KongHack/Interfaces/releases/tag/4.3.0)
+- @GameCharmer Remove deprecated User class
+- @GameCharmer Add additional message methods to UserInterface
+
+
 ## [4.2.4](https://github.com/KongHack/Interfaces/releases/tag/4.2.4)
 - @GameCharmer Update PageWrapper Interface returns
 - @GameCharmer New Router Interface
