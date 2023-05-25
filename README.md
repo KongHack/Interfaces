@@ -13,4 +13,4 @@ An interfaces pack used to maintain library cohesion across projects and package
   - User
 
 ### Version
-4.3.3
+4.3.4

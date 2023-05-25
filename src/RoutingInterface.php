@@ -10,9 +10,9 @@ interface RoutingInterface
 
     /**
      * @param string $name
-     * @return static
+     * @return RoutingInterface
      */
-    public static function getInstance(string $name = self::DEFAULT_NAME): static;
+    public static function getInstance(string $name = self::DEFAULT_NAME): RoutingInterface;
 
     /**
      * @param string $name
