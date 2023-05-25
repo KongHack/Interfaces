@@ -125,9 +125,9 @@ interface RoutingInterface
 
     /**
      * @param string|null $prefix
-     * @return string|null
+     * @return void
      */
-    public function setRoutePrefix(string $prefix = null): ?string;
+    public function setRoutePrefix(string $prefix = null): void;
 
     /**
      * @return null|string
@@ -136,9 +136,9 @@ interface RoutingInterface
 
     /**
      * @param string $name
-     * @return string
+     * @return void
      */
-    public function setPageWrapperName(string $name): string;
+    public function setPageWrapperName(string $name): void;
 
     /**
      * @return null|string
