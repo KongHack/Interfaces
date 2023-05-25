@@ -6,6 +6,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [4.3.2](https://github.com/KongHack/Interfaces/releases/tag/4.3.2)
+- @GameCharmer Patch var name in PageWrapper setKeywords method
+
+
+
 ## [4.3.1](https://github.com/KongHack/Interfaces/releases/tag/4.3.1)
 - @GameCharmer Add clear messages method to UserInterface
 
@@ -14,6 +19,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 ## [4.3.0](https://github.com/KongHack/Interfaces/releases/tag/4.3.0)
 - @GameCharmer Remove deprecated User class
 - @GameCharmer Add additional message methods to UserInterface
+
 
 
 ## [4.2.4](https://github.com/KongHack/Interfaces/releases/tag/4.2.4)

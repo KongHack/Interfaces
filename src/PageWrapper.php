@@ -34,10 +34,10 @@ interface PageWrapper
     public function getDesc(): string;
 
     /**
-     * @param string $desc
+     * @param string $keywords
      * @return $this
      */
-    public function setKeywords(string $desc): static;
+    public function setKeywords(string $keywords): static;
 
     /**
      * @return string
