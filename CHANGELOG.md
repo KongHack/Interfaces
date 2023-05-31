@@ -6,6 +6,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [4.3.6](https://github.com/KongHack/Interfaces/releases/tag/4.3.6)
+- @GameCharmer Add UICore Interface
+
+
+
 ## [4.3.5](https://github.com/KongHack/Interfaces/releases/tag/4.3.5)
 - @GameCharmer Singleton and Multiton interfaces
 
