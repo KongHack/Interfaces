@@ -2,9 +2,9 @@
 namespace GCWorld\Interfaces;
 
 /**
- * Interface GMWorkerDefinition.
+ * Interface GMWorkerInterface.
  */
-interface GMWorkerDefinition
+interface GMWorkerInterface
 {
     /**
      * @return string
