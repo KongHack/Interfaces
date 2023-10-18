@@ -6,6 +6,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [4.3.7](https://github.com/KongHack/Interfaces/releases/tag/4.3.7)
+- @GameCharmer Add `GMWorkerInterface`
+
+
+
 ## [4.3.6](https://github.com/KongHack/Interfaces/releases/tag/4.3.6)
 - @GameCharmer Add UICore Interface
 
