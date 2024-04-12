@@ -3,12 +3,11 @@ namespace GCWorld\Interfaces;
 
 /**
  * Interface Cron
- * @package GCWorld\Interfaces
  */
 interface Cron
 {
     /**
-     * @return mixed
+     * @return bool
      */
-    public function run();
+    public function run(): bool;
 }
