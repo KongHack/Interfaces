@@ -6,6 +6,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [4.3.11](https://github.com/KongHack/Interfaces/releases/tag/4.3.11)
+- @GameCharmer UI Renderable Interface
+
+
+
 ## [4.3.10](https://github.com/KongHack/Interfaces/releases/tag/4.3.10)
 - @GameCharmer Add bool return on Cron->run();
 
