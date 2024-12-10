@@ -6,6 +6,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [4.3.13](https://github.com/KongHack/Interfaces/releases/tag/4.3.13)
+- @GameCharmer Update Composer Dependencies
+
+
+
 ## [4.3.12](https://github.com/KongHack/Interfaces/releases/tag/4.3.12)
 - @GameCharmer Update Twig per CVE-2024-45411
 
