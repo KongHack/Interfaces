@@ -43,4 +43,11 @@ interface PageWrapper
      * @return string
      */
     public function getKeywords(): string;
+
+    /**
+     * @param string $message
+     * @param string $class
+     * @return $this
+     */
+    public function addNotice(string $message, string $class): static;
 }
