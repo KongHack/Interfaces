@@ -25,5 +25,5 @@ interface TwigInterface
      *
      * @return string
      */
-    public static function render(string $name, array $context = null): string;
+    public static function render(string $name, ?array $context = null): string;
 }

@@ -14,16 +14,16 @@ interface CommonInterface
     public static function getInstance(): static;
 
     /**
-     * @param mixed $instance
+     * @param string $instance
      * @return DatabaseInterface
      */
-    public function getDatabase($instance = 'default');
+    public function getDatabase(string $instance = 'default');
 
     /**
-     * @param mixed $instance
+     * @param string $instance
      * @return \Redis
      */
-    public function getCache($instance = 'default');
+    public function getCache(string $instance = 'default');
 
     /**
      * @param string $heading

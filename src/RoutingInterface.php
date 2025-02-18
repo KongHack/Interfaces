@@ -65,7 +65,7 @@ interface RoutingInterface
      * @param string|null $path_info
      * @return void
      */
-    public function forward(string $path_info = null): void;
+    public function forward(?string $path_info = null): void;
 
     /**
      * @param string $name
@@ -127,7 +127,7 @@ interface RoutingInterface
      * @param string|null $prefix
      * @return void
      */
-    public function setRoutePrefix(string $prefix = null): void;
+    public function setRoutePrefix(?string $prefix = null): void;
 
     /**
      * @return null|string
