@@ -6,6 +6,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [4.4.5](https://github.com/KongHack/Interfaces/releases/tag/4.4.5)
+- @GameCharmer return null instead of bool in getCache
+
+
+
 ## [4.4.4](https://github.com/KongHack/Interfaces/releases/tag/4.4.4)
 - @GameCharmer Allow null on instance names
 
