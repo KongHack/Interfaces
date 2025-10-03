@@ -27,9 +27,9 @@ interface CommonInterface
 
     /**
      * @param string|null $instance
-     * @return bool|\Redis|\RedisCluster
+     * @return null|\Redis|\RedisCluster
      */
-    public function getCache(?string $instance = 'default'): bool|\RedisCluster|\Redis;
+    public function getCache(?string $instance = 'default'): null|\RedisCluster|\Redis;
 
     /**
      * @param string|null $instance
