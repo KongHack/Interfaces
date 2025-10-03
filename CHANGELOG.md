@@ -6,6 +6,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [4.4.4](https://github.com/KongHack/Interfaces/releases/tag/4.4.4)
+- @GameCharmer Allow null on instance names
+
+
+
 ## [4.4.3](https://github.com/KongHack/Interfaces/releases/tag/4.4.3)
 - @GameCharmer revert change to getCache routine, add closeDatabase and closeCache methods
 
