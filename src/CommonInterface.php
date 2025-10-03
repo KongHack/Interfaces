@@ -20,10 +20,11 @@ interface CommonInterface
     public function getDatabase(string $instance = 'default');
 
     /**
-     * @param string $instance
-     * @return \Redis
+     * @param string $configName
+     * @param string $identifier
+     * @return bool|\Redis|\RedisCluster
      */
-    public function getCache(string $instance = 'default');
+    public function getCache(string $configName = 'default', string $identifier = '');
 
     /**
      * @param string $heading
