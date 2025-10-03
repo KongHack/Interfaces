@@ -6,6 +6,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [4.4.3](https://github.com/KongHack/Interfaces/releases/tag/4.4.3)
+- @GameCharmer revert change to getCache routine, add closeDatabase and closeCache methods
+
+
+
 ## [4.4.2](https://github.com/KongHack/Interfaces/releases/tag/4.4.2)
 - @GameCharmer Change parameters for getCache routine
 

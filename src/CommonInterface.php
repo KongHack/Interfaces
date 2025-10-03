@@ -17,14 +17,25 @@ interface CommonInterface
      * @param string $instance
      * @return DatabaseInterface
      */
-    public function getDatabase(string $instance = 'default');
+    public function getDatabase(string $instance = 'default'): DatabaseInterface;
 
     /**
-     * @param string $configName
-     * @param string $identifier
+     * @param string $instance
+     * @return void
+     */
+    public function closeDatabase(string $instance = 'default'): void;
+
+    /**
+     * @param string $instance
      * @return bool|\Redis|\RedisCluster
      */
-    public function getCache(string $configName = 'default', string $identifier = '');
+    public function getCache(string $instance = 'default'): bool|\RedisCluster|\Redis;
+
+    /**
+     * @param string $instance
+     * @return void
+     */
+    public function closeCache(string $instance = 'default'): void;
 
     /**
      * @param string $heading
