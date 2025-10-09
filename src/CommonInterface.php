@@ -41,19 +41,19 @@ interface CommonInterface
      * @param string $heading
      * @return array
      */
-    public function getConfig(string $heading);
+    public function getConfig(string $heading): array;
 
     /**
      * @param string $key
      * @return string
      */
-    public function getDirectory(string $key);
+    public function getDirectory(string $key): string;
 
     /**
      * @param string $key
      * @return string
      */
-    public function getPath(string $key);
+    public function getPath(string $key): string;
 
     /**
      * @return string
@@ -61,7 +61,8 @@ interface CommonInterface
     public function getCommonVersion(): string;
 
     /**
+     * @param bool $fresh
      * @return string
      */
-    public function getProjectVersion(): string;
+    public function getProjectVersion(bool $fresh = false): string;
 }
