@@ -54,4 +54,14 @@ interface CommonInterface
      * @return string
      */
     public function getPath(string $key);
+
+    /**
+     * @return string
+     */
+    public function getCommonVersion(): string;
+
+    /**
+     * @return string
+     */
+    public function getProjectVersion(): string;
 }
