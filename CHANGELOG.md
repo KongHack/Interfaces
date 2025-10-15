@@ -6,6 +6,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [4.4.8](https://github.com/KongHack/Interfaces/releases/tag/4.4.8)
+- @GameCharmer Update `DatabaseStatementInterface` to remove extra fetchAll args 
+
+
+
 ## [4.4.7](https://github.com/KongHack/Interfaces/releases/tag/4.4.7)
 - @GameCharmer Add remaining return types to `CommonInterface`, add `fresh` argument 
 

@@ -47,13 +47,13 @@ interface DatabaseStatementInterface
     public function fetch(int $mode = PDO::FETCH_DEFAULT, int $cursorOrientation = PDO::FETCH_ORI_NEXT, int $cursorOffset = 0);
 
     /** @return mixed */
-    public function fetchAll(int $mode = PDO::FETCH_DEFAULT, mixed ...$args);
+    public function fetchAll(int $mode = PDO::FETCH_DEFAULT);
 
     /** @return ?mixed */
-    public function fetchAllNullable(int $mode = PDO::FETCH_DEFAULT, mixed ...$args);
+    public function fetchAllNullable(int $mode = PDO::FETCH_DEFAULT);
 
     /** @return array */
-    public function fetchAllArray(int $mode = PDO::FETCH_DEFAULT, mixed ...$args): array;
+    public function fetchAllArray(int $mode = PDO::FETCH_DEFAULT): array;
 
     /** @return mixed */
     public function fetchColumn(int $column = 0);
