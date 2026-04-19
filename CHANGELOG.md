@@ -6,8 +6,13 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [4.4.10](https://github.com/KongHack/Interfaces/releases/tag/4.4.10)
+- @GameCharmer JFC, I need a spell checker
+
+
+
 ## [4.4.9](https://github.com/KongHack/Interfaces/releases/tag/4.4.9)
-- @GameCharmer `SimpleTokeInterface`, for simple exceptions that just so happen to have tokens that you might want to get
+- @GameCharmer `SimpleTokenInterface`, for simple exceptions that just so happen to have tokens that you might want to get
 
 
 

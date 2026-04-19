@@ -2,11 +2,11 @@
 namespace GCWorld\Interfaces;
 
 /**
- *  SimpleTokeInterface Interface.
+ *  SimpleTokenInterface Interface.
  *
  * Just a simple interface for multiple exceptions
  */
-interface SimpleTokeInterface
+interface SimpleTokenInterface
 {
     public function getToken(): string;
 }
