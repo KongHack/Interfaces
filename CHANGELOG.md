@@ -6,6 +6,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [4.4.9](https://github.com/KongHack/Interfaces/releases/tag/4.4.9)
+- @GameCharmer `SimpleTokeInterface`, for simple exceptions that just so happen to have tokens that you might want to get
+
+
+
 ## [4.4.8](https://github.com/KongHack/Interfaces/releases/tag/4.4.8)
 - @GameCharmer Update `DatabaseStatementInterface` to remove extra fetchAll args 
 
