@@ -65,4 +65,9 @@ interface CommonInterface
      * @return string
      */
     public function getProjectVersion(bool $fresh = false): string;
+
+    /**
+     * @return \BackedEnum
+     */
+    public function getEnvironment(): \BackedEnum();
 }
