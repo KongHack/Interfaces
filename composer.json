@@ -8,7 +8,7 @@
     }
   ],
   "require": {
-    "php": ">=8.1",
+    "php": ">=8.4",
     "twig/twig": "^3.19"
   },
   "autoload": {
@@ -18,7 +18,7 @@
   },
   "license":"proprietary",
   "require-dev": {
-    "gcworld/code_sniffer_contrib": "^2.0.4",
+    "gcworld/code_sniffer_contrib": "^2.2.0",
     "phpstan/phpstan": "^1.1.2",
     "phpmd/phpmd": ">=2.11"
   }
