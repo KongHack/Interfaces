@@ -6,6 +6,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [4.4.12](https://github.com/KongHack/Interfaces/releases/tag/4.4.12)
+- @GameCharmer migrate `CommonEnvironmentEnumInterface` to this repo
+
+
+
 ## [4.4.11](https://github.com/KongHack/Interfaces/releases/tag/4.4.11)
 - @GameCharmer Add `getEnvironment` to `CommonInterface`
 - @GameCharmer Bump PHP version to 8.4
