@@ -6,6 +6,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [4.4.14](https://github.com/KongHack/Interfaces/releases/tag/4.4.14)
+- @GameCharmer Update Composer Dependencies
+
+
+
 ## [4.4.13](https://github.com/KongHack/Interfaces/releases/tag/4.4.13)
 - @GameCharmer Add `HasExceptionContext`
 
