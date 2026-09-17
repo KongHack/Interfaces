@@ -1,5 +1,12 @@
 # GCWorld Interfaces
 
+![Packagist](https://img.shields.io/packagist/dm/gcworld/interfaces.svg)
+![Packagist](https://img.shields.io/packagist/dt/gcworld/interfaces.svg)
+
+![Packagist PHP](https://img.shields.io/packagist/php-v/gcworld/interfaces.svg)
+![Packagist](https://img.shields.io/packagist/v/gcworld/interfaces.svg)
+![GitHub](https://img.shields.io/github/tag/konghack/interfaces.svg)
+
 Shared PHP contracts used to keep GCWorld applications and libraries compatible
 without coupling their implementations. The package contains interfaces and
 permission-level constants; it does not provide concrete services.
