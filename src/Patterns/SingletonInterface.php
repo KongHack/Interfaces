@@ -1,4 +1,5 @@
 <?php
+
 namespace GCWorld\Interfaces\Patterns;
 
 /**
@@ -10,5 +11,4 @@ interface SingletonInterface
      * @return self
      */
     public static function getInstance(): self;
-
 }

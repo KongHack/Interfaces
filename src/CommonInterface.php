@@ -1,4 +1,5 @@
 <?php
+
 namespace GCWorld\Interfaces;
 
 use GCWorld\Interfaces\Database\DatabaseInterface;

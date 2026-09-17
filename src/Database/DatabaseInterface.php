@@ -1,4 +1,5 @@
 <?php
+
 namespace GCWorld\Interfaces\Database;
 
 /**
@@ -93,5 +94,4 @@ interface DatabaseInterface
      * @return bool
      */
     public function disconnect(): bool;
-
 }

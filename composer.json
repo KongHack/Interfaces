@@ -16,10 +16,20 @@
       "GCWorld\\Interfaces\\": "src/"
     }
   },
-  "license":"proprietary",
+  "scripts": {
+    "lint": "find src -name '*.php' -print0 | xargs -0 -n1 php -l",
+    "phpstan": "phpstan analyse --no-progress --memory-limit=1G",
+    "phpcs": "phpcs",
+    "phpcbf": "phpcbf",
+    "check": [
+      "@lint",
+      "@phpstan",
+      "@phpcs"
+    ]
+  },
+  "license": "proprietary",
   "require-dev": {
-    "gcworld/code_sniffer_contrib": "^2.2.0",
-    "phpstan/phpstan": "^1.1.2",
-    "phpmd/phpmd": ">=2.11"
+    "phpstan/phpstan": "^2.1",
+    "squizlabs/php_codesniffer": "^3.13"
   }
 }

@@ -1,3 +1,10 @@
 parameters:
-	autoload_directories:
-		- %rootDir%/../../../src
+	level: 6
+	paths:
+		- src
+
+	# Array values are intentionally implementation-defined in these shared contracts.
+	ignoreErrors:
+		- identifier: missingType.iterableValue
+		- identifier: class.notFound
+		  path: src/CommonMongo.php

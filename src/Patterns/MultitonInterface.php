@@ -1,4 +1,5 @@
 <?php
+
 namespace GCWorld\Interfaces\Patterns;
 
 /**
@@ -11,5 +12,4 @@ interface MultitonInterface
      * @return self
      */
     public static function getInstance(mixed $name): self;
-
 }
