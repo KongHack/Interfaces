@@ -5,7 +5,7 @@ without coupling their implementations. The package contains interfaces and
 permission-level constants; it does not provide concrete services.
 
 ### Version
-4.4.14
+4.5.0
 
 ## Requirements
 

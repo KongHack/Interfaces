@@ -4,11 +4,15 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased](https://github.com/KongHack/Interfaces)
 
+
+
+## [4.5.0](https://github.com/KongHack/Interfaces/releases/tag/4.5.0)
 - Add PHP 8.4/8.5 GitHub Actions quality checks and tag-driven release creation.
 - Add weekly Dependabot checks for Composer and GitHub Actions dependencies.
 - Add a safe Docker Compose development environment using the PHP 8.4 CI image.
 - Add Composer quality scripts, PHPStan level 6, and PSR-12 configuration.
 - Document installation, available contracts, development, compatibility, and releases.
+
 
 
 ## [4.4.14](https://github.com/KongHack/Interfaces/releases/tag/4.4.14)
