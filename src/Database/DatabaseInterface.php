@@ -94,4 +94,9 @@ interface DatabaseInterface
      * @return bool
      */
     public function disconnect(): bool;
+
+    /**
+     * @return void
+     */
+    public function reconnect(): void;
 }
