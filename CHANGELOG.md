@@ -6,6 +6,11 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 
 
+## [4.5.1](https://github.com/KongHack/Interfaces/releases/tag/4.5.1)
+- Add reconnect method to database interface
+
+
+
 ## [4.5.0](https://github.com/KongHack/Interfaces/releases/tag/4.5.0)
 - Add PHP 8.4/8.5 GitHub Actions quality checks and tag-driven release creation.
 - Add weekly Dependabot checks for Composer and GitHub Actions dependencies.
