@@ -86,7 +86,7 @@ The namespace root is `GCWorld\Interfaces`. Database contracts live under
 
 ## Development
 
-The supported local environment uses the same public KongHack PHP 8.4 image as
+The supported local environment uses the same public KongHack PHP 8.5 image as
 CI:
 
 ```console
